@@ -1,3 +1,4 @@
+Eric Meyers Reset
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -22,6 +23,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -37,98 +39,73 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-*{
-    box-sizing:border-box;
-    padding:0;
-    margin:0;
-    max-width:100%;
-    /* border: 1px solid grey; */
+/*Header Styles*/
+nav {
+	display:flex;
+	justify-content:space-between;
+}
+.topSection {
+	display:flex;
+	justify-content:center;
+}
+.imageButton {
+	background-image:url("https://picsum.photos/600/400");
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:white;
+	font-size:large;
+	width:600px;
+	height:400px;
+}
+footer {
+	background-color:lightgrey;
+	padding:20px;
+	text-align:center;
 
 }
-/* general styles*/
-html{
-    font-size:62.5%;
+.row {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	padding:20px;
 }
-body{
-    font-size:1.8rem;
-    line-height: 1.5;
-    font-family: 'Ubuntu', sans-serif;
+.portfolioElement {
+	text-align:center;
 }
-/*Header Styles*/
-.top{
-    text-align:center;
-    
+button {
+	background-color:white;
+	color:black;
+	border: black solid 1px;
+	padding: 5px 10px;
+}
+button:hover {
+	background-color:black;
+	color:white;
+	border: white solid 1px;
+
+}
+
+button a {
+	text-decoration:none;
+	color: inherit;
+}
+
+
+
+/* h1{
+    font-size: 40px;
+    text-align:start;
+    display:inline-block;
 }
 header{
-    
-    font-size:5rem;
-    margin: 5%;
-}
-
-h2{
-    font-size:5rem;
-    margin:5%;
-}
-.buttons{
-    display:inline;
-
-}
-
-.about{
-    background-color:#F4D6CC;
-    color:black;
-    text-decoration:none;
-    padding:3%;
-    margin-right: -1%;
-   
-}
-.about:hover{
-    background-color:#62BBC1;
-}
-.contact{
-    background-color:#F4D6CC;
-    color:black;
-    text-decoration:none;
-    padding:3%;
-}
-.contact:hover{
-        background-color:#62BBC1;
-    }
-
-.projects{
-    background-color:#F4D6CC;
-    color:black;
-    text-decoration:none;
-    padding:3%;
-    margin-left: -1%;
-}
-.projects:hover{
-    background-color:#62BBC1
-}
-
-/*Middle Content Styles*/
-
-.midImage img{
-    width:100vh;
-    height: 30vh;
-}
-/* Bottom of page*/
-.botImages{
     display:flex;
-    align-items:stretch;
-    justify-content:flex-start;
-    display:inline;
-    
 }
-.botImages img{
-    max-width:15%;
-    height: 50vh
- 
-}
-.bottom{
-    flex:display;
-}
+header nav{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+   */
 
-.bottom p{
-    display:inline-block;
+
+    
 }
